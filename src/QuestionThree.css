@@ -1,10 +1,8 @@
 .QuestionThree .questions{
   font-weight: 600;
-  display: flex;
 }
 
 .QuestionThree .form-control{
-  display: flex;
   width: 100%;
   min-height: 25px;
   border-radius: 4px;

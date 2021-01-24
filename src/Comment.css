@@ -1,0 +1,9 @@
+.Comment .comment{
+  font-weight: 600;
+}
+
+.Comment .textarea-input{
+  width: 100%;
+  min-height: 120px;
+  border-radius: 4px;
+}

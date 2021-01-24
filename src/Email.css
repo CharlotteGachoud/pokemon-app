@@ -4,11 +4,9 @@
 
 .Email .labels{
   font-weight: 600;
-  display: flex;
 }
 
 .Email .form-control{
-  display: flex;
   width: 100%;
   min-height: 25px;
   border-radius: 4px;
