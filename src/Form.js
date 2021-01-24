@@ -4,6 +4,7 @@ import Email from "./Email";
 import Age from "./Age";
 import QuestionOne from "./QuestionOne";
 import QuestionTwo from "./QuestionTwo";
+import QuestionThree from "./QuestionThree";
 
 function Form(){
   return(
@@ -13,6 +14,7 @@ function Form(){
       <Age />
       <QuestionOne />
       <QuestionTwo />
+      <QuestionThree />
     </div>
   );
 }
