@@ -6,17 +6,9 @@
   padding: 5px 20px;
   border-radius: 4px;
   font-family: 'Press Start 2P';
+  text-align: center;
 }
 
 .Header h1, .Header h2{
   text-shadow: 2px 2px 5px #ffffff;
-}
-
-@media (max-width: 800px){
-  h1{
-    font-size: 20px;
-  }
-  h2{
-    font-size: 15px;
-  }
 }

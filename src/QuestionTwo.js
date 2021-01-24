@@ -1,4 +1,5 @@
 import React from "react";
+import "./QuestionTwo.css";
 
 function QuestionTwo(){
   return(
@@ -7,18 +8,20 @@ function QuestionTwo(){
         <p className="questions">
           What type do you recommend to choose as the starter pokemon?
         </p>
-        <label className="radio-label">
-          <input type="radio" className="radio-input" name="recommendation" value="Water" checked />
-          Water
-        </label>
-        <label className="radio-label">
-          <input type="radio" className="radio-input" name="recommendation" value="Fire" />
-          Fire
-        </label>
-        <label className="radio-label">
-          <input type="radio" className="radio-input" name="recommendation" value="Grass" />
-          Grass
-        </label>
+        <div className="radio-btn">
+          <label className="radio-label">
+            <input type="radio" className="radio-input" name="recommendation" value="Water" checked />
+            Water
+          </label>
+          <label className="radio-label fire">
+            <input type="radio" className="radio-input" name="recommendation" value="Fire" />
+            Fire
+          </label>
+          <label className="radio-label">
+            <input type="radio" className="radio-input" name="recommendation" value="Grass" />
+            Grass
+          </label>
+        </div>
       </div>
     </div>
   );

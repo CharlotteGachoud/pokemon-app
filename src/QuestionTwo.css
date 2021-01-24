@@ -1,0 +1,19 @@
+.QuestionTwo .questions{
+  font-weight: 600;
+  display: flex;
+}
+
+.QuestionTwo .form-control{
+  display: flex;
+  width: 100%;
+  min-height: 25px;
+  border-radius: 4px;
+}
+
+.QuestionTwo .fire{
+  margin: 0 50px;
+}
+
+.radio-btn{
+  text-align: center;
+}

@@ -1,4 +1,4 @@
-.QuestionOne .labels{
+.QuestionOne .questions{
   font-weight: 600;
   display: flex;
 }
@@ -8,15 +8,4 @@
   width: 100%;
   min-height: 25px;
   border-radius: 4px;
-}
-
-@media (max-width: 800px){
-  .labels{
-    font-size: 15px;
-  }
-}
-@media (min-width: 800px){
-  .labels{
-    font-size: 22px;
-  }
 }
