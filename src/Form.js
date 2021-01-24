@@ -6,6 +6,7 @@ import QuestionOne from "./QuestionOne";
 import QuestionTwo from "./QuestionTwo";
 import QuestionThree from "./QuestionThree";
 import Comment from "./Comment";
+import SubmitButton from "./SubmitButton";
 
 function Form(){
   return(
@@ -17,6 +18,7 @@ function Form(){
       <QuestionTwo />
       <QuestionThree />
       <Comment />
+      <SubmitButton />
     </div>
   );
 }
