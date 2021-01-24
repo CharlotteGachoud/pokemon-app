@@ -7,6 +7,7 @@ import QuestionTwo from "./QuestionTwo";
 import QuestionThree from "./QuestionThree";
 import Comment from "./Comment";
 import SubmitButton from "./SubmitButton";
+import "./Form.css";
 
 function Form(){
   return(
