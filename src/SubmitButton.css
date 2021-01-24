@@ -1,0 +1,18 @@
+.SubmitButton .submit-btn{
+  background: #F58C1F;
+  width: 100%;
+  color: #ffffff;
+  border: none;
+  padding: 20px 10px;
+  margin: 10px auto;
+  box-shadow: 3px 3px 5px hsl(358, 20%, 30%);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+}
+
+.SubmitButton .submit-btn:hover{
+  background: #ffffff;
+  color: #F58C1F;
+}
