@@ -5,6 +5,7 @@ import Age from "./Age";
 import QuestionOne from "./QuestionOne";
 import QuestionTwo from "./QuestionTwo";
 import QuestionThree from "./QuestionThree";
+import Comment from "./Comment";
 
 function Form(){
   return(
@@ -15,6 +16,7 @@ function Form(){
       <QuestionOne />
       <QuestionTwo />
       <QuestionThree />
+      <Comment />
     </div>
   );
 }
