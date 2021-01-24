@@ -1,0 +1,24 @@
+.QuestionThree .questions{
+  font-weight: 600;
+  display: flex;
+}
+
+.QuestionThree .form-control{
+  display: flex;
+  width: 100%;
+  min-height: 25px;
+  border-radius: 4px;
+}
+
+.QuestionThree .spacing{
+  margin: 18px 0;
+}
+
+.QuestionThree .questions{
+  display: inline;
+}
+
+.QuestionThree .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
+}

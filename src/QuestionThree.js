@@ -1,11 +1,12 @@
 import React from "react";
+import "./QuestionThree.css";
 
 function QuestionThree(){
   return(
     <div className="QuestionThree">
       <div className="spacing">
         <p className="questions">
-          Which version(s) did you own?
+          Which version(s) did you own?{" "}
         </p>
         <span className="clue">
           (Check all that apply)
