@@ -1,6 +1,6 @@
 .Form{
   display: block;
-  margin: auto;
+  margin: 0 auto 10px;
   background: rgba(245, 140, 31, 0.5);
   max-width: 700px;
   padding: 20px;

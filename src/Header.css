@@ -1,6 +1,6 @@
 .Header {
   display: block;
-  margin: 20px auto;
+  margin: 20px auto 10px;
   background: rgba(185, 32, 37, 0.3);
   max-width: 700px;
   padding: 5px 20px;

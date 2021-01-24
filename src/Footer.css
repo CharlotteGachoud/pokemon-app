@@ -1,18 +1,24 @@
 .Footer{
-  text-align: center;
+  text-align: left;
   font-size: 15px;
-  padding: 15px;
+  padding: 15px 20px;
+  background-color: rgba(255, 166, 0, 0.5);
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
 .Footer a{
   font-weight: 900;
   text-decoration: none;
+
 }
 
 .Footer a:link{
-  color: #F36F21;
+  color: #cc6a02;
 }
 
 .Footer a:visited{
-  color: #B92025;
+  color: #9e090b;
 }
