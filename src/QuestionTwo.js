@@ -12,11 +12,11 @@ function QuestionTwo(){
           Water
         </label>
         <label className="radio-label">
-          <input type="radio" className="radio-input" name="recommendation" value="Fire" checked />
+          <input type="radio" className="radio-input" name="recommendation" value="Fire" />
           Fire
         </label>
         <label className="radio-label">
-          <input type="radio" className="radio-input" name="recommendation" value="Grass" checked />
+          <input type="radio" className="radio-input" name="recommendation" value="Grass" />
           Grass
         </label>
       </div>
