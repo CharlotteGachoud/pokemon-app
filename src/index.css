@@ -2,7 +2,6 @@ body{
   background: rgba(245, 185, 21, 0.6);
   background-image: url("https://static.vecteezy.com/system/resources/previews/000/120/172/original/free-pokemon-vector.png");
   background-size: cover;
-  background-repeat: space;
-  background-position: center;
-  font-family: 'Raleway', sans-serif;
+  background-repeat: no-repeat;
+  background-position: top;
 }
