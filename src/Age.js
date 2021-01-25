@@ -9,7 +9,7 @@ function Age() {
           How old were you when you first started playing Pokemon?
         </label>
       </div>
-      <input type="number" className="form-control" id="number" name="number" placeholder="Age" min="5" max="99" /> 
+      <input type="number" className="form-control" id="number" name="number" placeholder="Age" min="5" max="99" required={true} /> 
     </div>
   );
 }

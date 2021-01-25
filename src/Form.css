@@ -7,3 +7,23 @@
   border-radius: 4px;
 }
 
+@media (max-width: 800px){
+  .labels, .questions{
+    font-size: 16px;
+  }
+  .radio-btn, .checkbox-label{
+    font-size: 15px;
+  }
+  .clue{
+    display: flex;
+  }
+}
+@media (min-width: 800px){
+  .labels, .questions{
+    font-size: 20px;
+  }
+  .radio-btn, .checkbox-label{
+    font-size: 18px;
+  }
+}
+

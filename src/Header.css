@@ -1,10 +1,19 @@
 .Header {
   display: block;
   margin: 20px auto 10px;
-  background: rgba(185, 32, 37, 0.3);
   max-width: 700px;
   padding: 5px 20px;
   border-radius: 4px;
   font-family: 'Press Start 2P';
   text-align: center;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+@media (max-width: 800px){
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 18px;
+  }
 }

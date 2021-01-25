@@ -6,11 +6,11 @@ function QuestionTwo(){
     <div className="QuestionTwo">
       <div className="form-group">
         <p className="questions">
-          What type do you recommend to choose as the starter pokemon?
+          What type would you recommend to choose as a starter pokemon?
         </p>
         <div className="radio-btn">
           <label className="radio-label">
-            <input type="radio" className="radio-input" name="recommendation" value="Water" checked />
+            <input type="radio" className="radio-input" name="recommendation" value="Water" />
             Water
           </label>
           <label className="radio-label fire">

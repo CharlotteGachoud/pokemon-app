@@ -1,12 +1,8 @@
-.Email .spacing{
-  margin: 18px 0;
-}
-
-.Email .labels{
+.QuestionFour .questions{
   font-weight: 600;
 }
 
-.Email .form-control{
+.QuestionFour .form-control{
   width: 100%;
   min-height: 25px;
   border-radius: 4px;

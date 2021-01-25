@@ -7,10 +7,10 @@ function Name(){
       <div className="form-group">
         <div className="spacing">
           <label for="name" id="name-label" className="labels">
-            Name
+            Player name
           </label>
         </div>
-        <input type="text" className="form-control" id="name" name="name" placeholder="Enter your name" required />
+        <input type="text" className="form-control" id="name" name="name" placeholder="Enter the name you usually used in the game" required />
       </div>
     </div>
   );
