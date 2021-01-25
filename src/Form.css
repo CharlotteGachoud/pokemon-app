@@ -18,6 +18,7 @@
     display: flex;
   }
 }
+
 @media (min-width: 800px){
   .labels, .questions{
     font-size: 20px;

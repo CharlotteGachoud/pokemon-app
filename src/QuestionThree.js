@@ -1,7 +1,35 @@
 import React from "react";
 import "./QuestionThree.css";
+import Versions from "./Versions";
+
+const versions = [
+  "Red",
+  "Blue",
+  "Yellow",
+  "Gold",
+  "Silver",
+  "Crystal",
+  "Ruby",
+  "Sapphire",
+  "Diamond",
+  "Pearl",
+  "Black",
+  "White",
+  "Black2",
+  "White2",
+  "X",
+  "Y",
+  "Sun",
+  "Moon",
+  "Ultra sun",
+  "Ultra moon",
+  "Sword",
+  "Shield"
+]
 
 function QuestionThree(){
+  
+ 
   return(
     <div className="QuestionThree">
       <div className="spacing">
@@ -13,94 +41,8 @@ function QuestionThree(){
         </span>
       </div>
       <div className="container">
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Red" />
-            Red
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Blue" />
-            Blue
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Yellow" />
-            Yellow
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Gold" />
-            Gold
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Silver" />
-            Silver
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Crystal" />
-            Crystal
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Ruby" />
-            Ruby
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Sapphire" />
-            Sapphire
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Diamond" />
-            Diamond
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Pearl" />
-            Pearl
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Black" />
-            Black
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="White" />
-            White
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Black 2" />
-            Black 2
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="White 2" />
-            White 2
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="X" />
-            X
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Y" />
-            Y
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Sun" />
-            Sun
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Moon" />
-            Moon
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Ultra sun" />
-            Ultra sun
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Ultra moon" />
-            Ultra moon
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Sword" />
-            Sword
-        </label>
-        <label className="checkbox-label">
-          <input type="checkbox" className="checkbox-input" name="checkbox" value="Shield" />
-            Shield
-        </label>
+       {versions.map((version) =>(
+          <Versions versions={version} />))}
       </div>
     </div>
   );
