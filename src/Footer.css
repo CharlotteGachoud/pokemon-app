@@ -1,5 +1,5 @@
 .Footer{
-  text-align: left;
+  text-align: center;
   font-size: 15px;
   padding: 15px 20px;
   background-color: rgba(255, 166, 0, 0.5);
@@ -12,7 +12,7 @@
 .Footer a{
   font-weight: 900;
   text-decoration: none;
-
+  transition: all 200ms ease-in-out;
 }
 
 .Footer a:link{
@@ -20,5 +20,9 @@
 }
 
 .Footer a:visited{
-  color: #9e090b;
+  color: #F5B915;
+}
+
+.Footer a:hover{
+  color: #063b6d;
 }
